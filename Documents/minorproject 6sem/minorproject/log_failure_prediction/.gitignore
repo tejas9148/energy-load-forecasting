@@ -1,1 +1,14 @@
 dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated training outputs and local runtime artifacts
+artifacts/
+project/saved_models/
+project/plots/*.png
+
+# Keep placeholder files
+!project/saved_models/.gitkeep
+!project/plots/.gitkeep
